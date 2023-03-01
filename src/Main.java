@@ -1,3 +1,5 @@
+// "Exercise_9_Take_A_Swing, Ready for Marking"
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -27,7 +29,7 @@ public class Main extends JFrame
         JLabel2 = new JLabel("This is the Right Pane");
 
         JPanel1.setBackground(Color.LIGHT_GRAY);
-        JPanel2.setBackground(Color.WHITE);
+        JPanel2.setBackground(Color.RED);
 
         JPanel1.add(JButton1);
         JPanel1.add(JButton2);
@@ -35,7 +37,6 @@ public class Main extends JFrame
         JPanel2.add(JLabel2);
 
         setSize(400, 200);
-
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
